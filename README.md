@@ -1,16 +1,56 @@
-# React + Vite
+# Password Generator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple password generator built with React, Vite, and Tailwind CSS.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Generate strong passwords with customizable length
+- Option to include numbers
+- Option to include special characters
+- Copy password to clipboard with one click
+- Responsive and clean UI
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React
+- Vite
+- Tailwind CSS
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Install dependencies
+
+```bash
+npm install
+```
+
+### Run locally
+
+```bash
+npm run dev
+```
+
+Then open the local Vite URL shown in the terminal.
+
+## Usage
+
+- Use the slider to set the desired password length.
+- Toggle `Numbers` to include numeric digits.
+- Toggle `Characters` to include special symbols.
+- Click `Copy` to copy the generated password to your clipboard.
+
+## Scripts
+
+- `npm run dev` - start the development server
+- `npm run build` - build the production app
+- `npm run preview` - preview the production build locally
+- `npm run lint` - run ESLint across the project
+
+## Notes
+
+- The password is generated automatically whenever the length or options change.
+- The app uses the browser clipboard API to copy passwords.
+
+## License
+
+This project is open source and available under the terms of the MIT License.
