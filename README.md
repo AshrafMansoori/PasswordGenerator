@@ -2,6 +2,10 @@
 
 A simple password generator built with React, Vite, and Tailwind CSS.
 
+## ScreenShot
+<img width="1847" height="877" alt="Screenshot 2026-07-07 214806" src="https://github.com/user-attachments/assets/ac35b6d7-a38b-4323-9e25-b66737a624f1" />
+
+
 ## Features
 
 - Generate strong passwords with customizable length
