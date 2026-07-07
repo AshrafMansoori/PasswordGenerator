@@ -55,7 +55,7 @@ function App() {
         ref={passwordRef}
       />
 
-      <button className="bg-blue-500 hoverbg-blue-500 hover:bg-blue-600 active:bg-blue-700 active:scale-95 text-white px-4 py-2 rounded-lg transition-all duration-150:bg-blue-600 text-white px-4 rounded-lg"
+      <button className="bg-blue-500 hoverbg-blue-500 hover:bg-blue-600 active:bg-blue-700 active:scale-95  py-2  transition-all duration-150:bg-blue-600 text-white px-4 rounded-lg"
               onClick={clipBoard}
               >
         Copy
